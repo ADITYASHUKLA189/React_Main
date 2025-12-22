@@ -36,6 +36,7 @@ function App() {
 
   //this hook used is to call the passwordgenerator
   useEffect(() => {
+    
     passwordGenerator()
   }, [length, numberAllowed, charAllowed, passwordGenerator])
   return (
