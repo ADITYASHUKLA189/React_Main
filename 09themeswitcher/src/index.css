@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* 👇 REQUIRED FOR DARK MODE IN V4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+body{
+  background-color: #896c6c;
+}

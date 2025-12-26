@@ -81,7 +81,7 @@ function App() {
           {/* Convert Button */}
           <button
             type="submit"
-            className="w-full rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 py-3 font-semibold text-white shadow-lg transition hover:from-blue-700 hover:to-indigo-700 active:scale-[0.98]"
+            className="w-full rounded-xl bg-linear-to-r from-blue-600 to-indigo-600 py-3 font-semibold text-white shadow-lg transition hover:from-blue-700 hover:to-indigo-700 active:scale-[0.98]"
           >
             Convert {from.toUpperCase()} → {to.toUpperCase()}
           </button>
